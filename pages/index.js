@@ -25,7 +25,7 @@ const Home = (props) => {
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/623c6193-afa9-4fbb-88fd-c9f03988ed43/bd3dfeac-3220-4500-9d68-0b54b0a1008f?org_if_sml=1&amp;q=80&amp;force_format=original"
           />
         </Head>
-        <Snowfall />
+        <Snowfall snowflakeCount={50} />
         <section className="home-hero">
           <video
             src="https://bafybeidbia5v5q7toetkgqgomh6ujr5owibp4efgnc5b72panpjhsrk3jq.ipfs.nftstorage.link/ipfs/bafybeidbia5v5q7toetkgqgomh6ujr5owibp4efgnc5b72panpjhsrk3jq/Untitled.mp4"
