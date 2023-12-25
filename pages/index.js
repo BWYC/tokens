@@ -166,8 +166,7 @@ const Home = (props) => {
           <h1 className="home-text21">ROADMAP</h1>
           <span className="home-text22">
             <span>
-              our ROADMAP IS SIMPLE. TO THE MOON AND FAR BEYOND. WHALES ON
-              BOARD.
+              our ROADMAP IS SIMPLE. TO THE MOON AND FAR BEYOND. WHALES ONBOARD.
             </span>
             <br></br>
           </span>
