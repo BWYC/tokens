@@ -119,7 +119,7 @@ const Home = (props) => {
             MAXIMUM SUPPLY OF WHALES TOKEN. THIS VALUE IS CREDITED FOR BEING
             INFLATION PROOF JUST LIKE BITCOIN, SMART contract ownership will be
             renounced, and no further tokens will ever be minted or burnt.
-            2100000 FOREVER.
+            21000000 FOREVER.
           </span>
         </div>
         <div className="home-stats">
