@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Head from "next/head";
 import Snowfall from "react-snowfall";
+import { ConnectWallet } from "@thirdweb-dev/react";
 
 import Script from "dangerous-html/react";
 
@@ -42,7 +43,17 @@ const Home = (props) => {
               src="/iuterdry-200w.webp"
               className="home-branding"
             />
+
             <div data-thq="thq-burger-menu" className="home-burger-menu">
+              <div style={{ width: "80%" }}>
+                <ConnectWallet
+                  style={{
+                    background: "transparent",
+                    textShadow: "gray 1px 1px 2px",
+                    border: "1px solid gray",
+                  }}
+                />
+              </div>
               <div className="home-hamburger">
                 <svg viewBox="0 0 1024 1024" className="home-icon">
                   <path d="M810.667 725.333h-298.667c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h298.667c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>

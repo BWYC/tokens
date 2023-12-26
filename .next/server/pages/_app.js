@@ -19,7 +19,7 @@ exports.modules = {
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ MyApp)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./pages/style.css\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nfunction MyApp({ Component: Component , pageProps: pageProps  }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n        ...pageProps\n    }, void 0, false, {\n        fileName: \"/workspace/pages/_app.js\",\n        lineNumber: 5,\n        columnNumber: 10\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7QUFBQTtBQUFxQjtBQUVLO0FBQ1gsU0FBU0MsS0FBSyxDQUFDLEVBQUVDLFNBQVMsRUFBRUEsU0FBUyxHQUFFQyxTQUFTLEVBQUVBLFNBQVMsR0FBRSxFQUFFO0lBQzVFLHFCQUFPLDhEQUFDRCxTQUFTO1FBQUUsR0FBR0MsU0FBUzs7Ozs7WUFBSSxDQUFDO0FBQ3RDLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly93aGFsZXMvLi9wYWdlcy9fYXBwLmpzP2UwYWQiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFwiLi9zdHlsZS5jc3NcIjtcblxuaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTXlBcHAoeyBDb21wb25lbnQ6IENvbXBvbmVudCwgcGFnZVByb3BzOiBwYWdlUHJvcHMgfSkge1xuICByZXR1cm4gPENvbXBvbmVudCB7Li4ucGFnZVByb3BzfSAvPjtcbn1cbiJdLCJuYW1lcyI6WyJSZWFjdCIsIk15QXBwIiwiQ29tcG9uZW50IiwicGFnZVByb3BzIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ MyApp)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./pages/style.css\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _thirdweb_dev_chains__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @thirdweb-dev/chains */ \"@thirdweb-dev/chains\");\n/* harmony import */ var _thirdweb_dev_chains__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_thirdweb_dev_chains__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _thirdweb_dev_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @thirdweb-dev/react */ \"@thirdweb-dev/react\");\n/* harmony import */ var _thirdweb_dev_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_thirdweb_dev_react__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);\n\n\n\n\n\nfunction MyApp({ Component: Component , pageProps: pageProps  }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_thirdweb_dev_react__WEBPACK_IMPORTED_MODULE_3__.ThirdwebProvider, {\n        activeChain: _thirdweb_dev_chains__WEBPACK_IMPORTED_MODULE_2__.CoreBlockchain,\n        clientId: \"YOUR_CLIENT_ID\" // You can get a client id from dashboard settings\n        ,\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                ...pageProps\n            }, void 0, false, {\n                fileName: \"/workspace/pages/_app.js\",\n                lineNumber: 12,\n                columnNumber: 7\n            }, this),\n            \";\"\n        ]\n    }, void 0, true, {\n        fileName: \"/workspace/pages/_app.js\",\n        lineNumber: 8,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7O0FBQUE7QUFBcUI7QUFDaUM7QUFDYztBQUUxQztBQUNYLFNBQVNJLEtBQUssQ0FBQyxFQUFFQyxTQUFTLEVBQUVBLFNBQVMsR0FBRUMsU0FBUyxFQUFFQSxTQUFTLEdBQUUsRUFBRTtJQUM1RSxxQkFDRSw4REFBQ0wsaUVBQWdCO1FBQ2ZNLFdBQVcsRUFBRVAsZ0VBQWM7UUFDM0JRLFFBQVEsRUFBQyxnQkFBZ0IsQ0FBQyxrREFBa0Q7UUFBbkQ7OzBCQUV6Qiw4REFBQ0gsU0FBUztnQkFBRSxHQUFHQyxTQUFTOzs7OztvQkFBSTtZQUFBLEdBQzlCOzs7Ozs7WUFBbUIsQ0FDbkI7QUFDSixDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vd2hhbGVzLy4vcGFnZXMvX2FwcC5qcz9lMGFkIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBcIi4vc3R5bGUuY3NzXCI7XG5pbXBvcnQgeyBDb3JlQmxvY2tjaGFpbiB9IGZyb20gXCJAdGhpcmR3ZWItZGV2L2NoYWluc1wiO1xuaW1wb3J0IHsgVGhpcmR3ZWJQcm92aWRlciwgdXNlQ29udHJhY3QgfSBmcm9tIFwiQHRoaXJkd2ViLWRldi9yZWFjdFwiO1xuXG5pbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBNeUFwcCh7IENvbXBvbmVudDogQ29tcG9uZW50LCBwYWdlUHJvcHM6IHBhZ2VQcm9wcyB9KSB7XG4gIHJldHVybiAoXG4gICAgPFRoaXJkd2ViUHJvdmlkZXJcbiAgICAgIGFjdGl2ZUNoYWluPXtDb3JlQmxvY2tjaGFpbn1cbiAgICAgIGNsaWVudElkPVwiWU9VUl9DTElFTlRfSURcIiAvLyBZb3UgY2FuIGdldCBhIGNsaWVudCBpZCBmcm9tIGRhc2hib2FyZCBzZXR0aW5nc1xuICAgID5cbiAgICAgIDxDb21wb25lbnQgey4uLnBhZ2VQcm9wc30gLz47XG4gICAgPC9UaGlyZHdlYlByb3ZpZGVyPlxuICApO1xufVxuIl0sIm5hbWVzIjpbIkNvcmVCbG9ja2NoYWluIiwiVGhpcmR3ZWJQcm92aWRlciIsInVzZUNvbnRyYWN0IiwiUmVhY3QiLCJNeUFwcCIsIkNvbXBvbmVudCIsInBhZ2VQcm9wcyIsImFjdGl2ZUNoYWluIiwiY2xpZW50SWQiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
 
 /***/ }),
 
@@ -30,6 +30,28 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ (() => {
 
 
+
+/***/ }),
+
+/***/ "@thirdweb-dev/chains":
+/*!***************************************!*\
+  !*** external "@thirdweb-dev/chains" ***!
+  \***************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("@thirdweb-dev/chains");
+
+/***/ }),
+
+/***/ "@thirdweb-dev/react":
+/*!**************************************!*\
+  !*** external "@thirdweb-dev/react" ***!
+  \**************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("@thirdweb-dev/react");
 
 /***/ }),
 
