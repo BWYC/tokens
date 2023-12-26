@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Head from "next/head";
 import Snowfall from "react-snowfall";
-import { ConnectWallet } from "@thirdweb-dev/react";
+import { ConnectWallet, Web3Button } from "@thirdweb-dev/react";
 
 import Script from "dangerous-html/react";
 
@@ -45,7 +45,7 @@ const Home = (props) => {
             />
 
             <div data-thq="thq-burger-menu" className="home-burger-menu">
-              <div style={{ width: "80%" }}>
+              <div style={{ width: "100%" }}>
                 <ConnectWallet
                   style={{
                     background: "transparent",
@@ -112,9 +112,26 @@ const Home = (props) => {
                 ENSURE A SECURE, SCALABLE AND DECENTRALIZED ENVIRONMENT.
               </p>
             </div>
-            <button className="home-button button">
+            <button>
               <span>
-                <span>AIRDROP</span>
+                <Web3Button
+                  style={{
+                    background: "transparent",
+                    textShadow: "gray 1px 1px 2px",
+                    border: "1px solid gray",
+                    color: "white",
+                  }}
+                  contractAddress="0x0C478c35a7AfAFF10BADAe02f3f55B8853e0F8d6"
+                  action={(contract) => {
+                    contract.call("airdropERC20", [
+                      _tokenAddress,
+                      _tokenOwner,
+                      _contents,
+                    ]);
+                  }}
+                >
+                  AIRDROP
+                </Web3Button>
                 <br></br>
               </span>
             </button>
