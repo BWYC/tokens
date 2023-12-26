@@ -7,7 +7,7 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
   return (
     <ThirdwebProvider
       activeChain={CoreBlockchain}
-      clientId="YOUR_CLIENT_ID" // You can get a client id from dashboard settings
+      clientId="cc3b7731ad9935953abe4a625abea530" // You can get a client id from dashboard settings
     >
       <Component {...pageProps} />;
     </ThirdwebProvider>
