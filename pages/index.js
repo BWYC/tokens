@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Head from "next/head";
 import Snowfall from "react-snowfall";
-import { ConnectWallet, Web3Button } from "thirdweb-dev/react";
+import { ConnectWallet, Web3Button } from "@thirdweb-dev/react";
 
 import Script from "dangerous-html/react";
 
