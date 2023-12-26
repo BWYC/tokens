@@ -12,10 +12,7 @@
   "author": "TeleportHQ",
   "license": "MIT",
   "dependencies": {
-    "@thirdweb-dev/react": "^4.1.17",
-    "@thirdweb-dev/sdk": "^4.0.23",
     "dangerous-html": "0.1.13",
-    "ethers": "5",
     "next": "^12.1.0",
     "prop-types": "15.7.2",
     "react": "^17.0.2",

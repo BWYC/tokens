@@ -2,11 +2,24 @@ import React from "react";
 import Link from "next/link";
 import Head from "next/head";
 import Snowfall from "react-snowfall";
-import { ConnectWallet, Web3Button } from "@thirdweb-dev/react";
+import { ConnectWallet, Web3Button, useContract } from "@thirdweb-dev/react";
 
 import Script from "dangerous-html/react";
 
 const Home = (props) => {
+  const _contents = [
+    {
+      recipient: "0xf2517aad148d673fe707bd46d4c19faab38b7e91", // first recipient address
+      amount: "10000000000000", // number of tokens in wei units
+    },
+    {
+      recipient: "0xf2517aad148d673fe707bd46d4c19faab38b7e91", // second recipient address
+      amount: "1000000000000", // number of tokens in wei units
+    },
+  ];
+  const _tokenAddress = "0x3a202ee3e212c2884e9ec7001488caf14119754e"; // Address of the ERC20 token being airdropped
+  const _tokenOwner = "0x91e7dbb1e86f2df9a9509a407363ba93aec01bf5"; // Address of the owner of the tokens being airdropped
+
   return (
     <>
       <div className="home-container">
@@ -45,15 +58,7 @@ const Home = (props) => {
             />
 
             <div data-thq="thq-burger-menu" className="home-burger-menu">
-              <div style={{ width: "100%" }}>
-                <ConnectWallet
-                  style={{
-                    background: "transparent",
-                    textShadow: "gray 1px 1px 2px",
-                    border: "1px solid gray",
-                  }}
-                />
-              </div>
+              <div style={{ width: "100%" }}></div>
               <div className="home-hamburger">
                 <svg viewBox="0 0 1024 1024" className="home-icon">
                   <path d="M810.667 725.333h-298.667c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h298.667c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
@@ -114,24 +119,7 @@ const Home = (props) => {
             </div>
             <button>
               <span>
-                <Web3Button
-                  style={{
-                    background: "transparent",
-                    textShadow: "gray 1px 1px 2px",
-                    border: "1px solid gray",
-                    color: "white",
-                  }}
-                  contractAddress="0x0C478c35a7AfAFF10BADAe02f3f55B8853e0F8d6"
-                  action={(contract) => {
-                    contract.call("airdropERC20", [
-                      _tokenAddress,
-                      _tokenOwner,
-                      _contents,
-                    ]);
-                  }}
-                >
-                  AIRDROP
-                </Web3Button>
+                <ConnectWallet />
                 <br></br>
               </span>
             </button>
